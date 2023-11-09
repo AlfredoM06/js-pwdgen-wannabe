@@ -6,3 +6,4 @@ let random = Math.floor(Math.random() * 40);
 
 let password = name + surname + favoriteColor + random;
 
+document.getElementById("user_password").innerHTML = password;
